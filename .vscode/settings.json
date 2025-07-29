@@ -1,0 +1,25 @@
+{
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-arm",
+    "C_Cpp.default.compilerPath": "/usr/bin/arm-linux-gnueabihf-g++",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include",
+        "/root/board_sysroot/usr/include"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clangd.arguments": [
+        "--compile-commands-dir=build",
+        "--query-driver=/usr/bin/arm-linux-gnueabihf-g++",
+        "--query-driver=/usr/bin/arm-linux-gnueabihf-gcc"
+    ],
+    "clangd.fallbackFlags": [
+        "--sysroot=/root/board_sysroot",
+        "-I/root/board_sysroot/usr/include",
+        "-I/root/board_sysroot/usr/include/c++/9",
+        "-I/root/board_sysroot/usr/include/arm-linux-gnueabihf"
+    ]
+}

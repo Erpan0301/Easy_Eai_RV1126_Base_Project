@@ -1,0 +1,43 @@
+# === 编译输出 ===
+/build/
+/lib/
+/bin/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/*.ninja
+/rules.ninja
+/compile_commands.json
+
+# # === VSCode 工具相关 ===
+# .vscode/
+# *.code-workspace
+
+# === 日志和临时文件 ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# === 部署脚本的缓存 ===
+*.tar.gz
+*.img
+*.bin
+
+# === 自动生成软链接等 ===
+*.lnk
+*.lock
+
+# === 忽略 core dump 和 qemu 等运行痕迹 ===
+core
+*.core
+*.out
+
+# === 不要提交系统路径软链 ===
+/compile_commands.json
+
+# === 可选忽略脚本日志 ===
+scripts/*.log

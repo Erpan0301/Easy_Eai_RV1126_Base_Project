@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "rv1126",
+            "compilerPath": "/usr/bin/arm-linux-gnueabihf-g++",
+            "intelliSenseMode": "linux-gcc-arm",
+            "cppStandard": "c++14",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "/root/board_sysroot/usr/include",
+                "/root/board_sysroot/usr/include/c++/9",
+                "/root/board_sysroot/usr/include/arm-linux-gnueabihf"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}
